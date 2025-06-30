@@ -50,12 +50,12 @@ This SQL script sets up the `walmart_sales_analytics` database and creates the `
 DROP DATABASE IF EXISTS walmart_sales_analytics;
 CREATE DATABASE walmart_sales_analytics;
 
+==================================================
+==================================================
+==================================================
+
 -- CREATE the 'walmart_sales' database
 
-==================================================
-==================================================
-==================================================
-  
 DROP TABLE IF EXISTS walmart_sales;
 CREATE TABLE walmart_sales (
     invoice_id SERIAL PRIMARY KEY,
@@ -75,6 +75,11 @@ CREATE TABLE walmart_sales (
 ==================================================
   
 -- Truncate walmart_sales table and import data
+  
 TRUNCATE TABLE walmart_sales;
 \copy walmart_sales (invoice_id, branch, City, category, payment_method, unit_price, quantity, rating, profit_margin, datetime) FROM '/path/to/Walmart_Sales_Cleaned_Data.csv' DELIMITER ',' CSV HEADER;
+
+==================================================
+==================================================
+==================================================
 
