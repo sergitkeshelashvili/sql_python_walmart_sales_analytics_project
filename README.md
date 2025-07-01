@@ -20,6 +20,8 @@ Using python_pandas_raw_data_cleaning_script.ipynb:
 🧹 Standardize column names and optimize structure.
 Output: Walmart_Sales_Cleaned_Data.csv
 
+------------------------------------------------------------
+
 📈 Phase 2: Analytics (PostgreSQL) - Using walmart_sales_analytics.sql:
 
 📊 Aggregate sales by payment method.
