@@ -32,13 +32,16 @@ Setup: init_database.sql creates the database schema.
 ============================================================
 
 
-📂 Repository Structure // python_pandas_raw_data_cleaning:
+📂 Repository Structure
+
+🧹 python_pandas_raw_data_cleaning:
+
 🪙 walmart_sales_raw_data.csv: Raw dataset.
 🪙 python_pandas_raw_data_cleaning_script.ipynb: Cleaning script.
 
-============================================================
 
 📊 sql_data_analytics:
+
 init_database.sql: Database schema setup.
 walmart_sales_analytics.sql: Analytics queries.
 
