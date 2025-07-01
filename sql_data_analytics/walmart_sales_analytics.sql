@@ -1,13 +1,15 @@
 /*
-### Walmart Sales Analysis SQL Queries
-This repository contains a collection of SQL queries designed to analyze the walmart_sales database table. The queries explore various aspects of the dataset, including schema exploration, basic metrics, aggregations, rankings, and time-based analysis. The queries are organized thematically, progressing from simple exploratory queries to more advanced analytical ones.
 
-Table of Contents:
+Walmart Sales Analysis SQL Queries
+This SQL script provides a comprehensive set of queries to analyze the cleaned walmart_sales dataset, originally processed using Python's Pandas library. The queries cover schema exploration, distinct value analysis, basic metrics, aggregations with rankings, and time-based trends. They are organized thematically, progressing from simple exploratory queries to advanced analytical ones.
+
+Table of Contents
 Schema Exploration
 Distinct Values Analysis
 Basic Metrics
 Aggregations and Rankings
-Time-Based Analysis
+Time-Based Analysis 
+
 */
 
 ===========================================================
