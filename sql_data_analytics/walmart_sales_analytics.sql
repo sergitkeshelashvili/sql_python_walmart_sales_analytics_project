@@ -50,7 +50,7 @@ FROM walmart_sales;
 ===========================================================
 ===========================================================
 
-### Baisc Metrics
+### Basic Metrics
 
 -- Calculates the date range of sales data and the number of years spanned
 SELECT
