@@ -5,8 +5,8 @@ This project delivers an end-to-end analysis of Walmart's sales data, transformi
 📋 Project Overview
 The project is divided into two phases:
 
-# Data Cleaning (Python & Pandas): Clean and structure raw data for analysis.
-# Analytics (PostgreSQL): Extract insights using advanced SQL queries.
+Data Cleaning (Python & Pandas): Clean and structure raw data for analysis.
+Analytics (PostgreSQL): Extract insights using advanced SQL queries.
 
 🛠️ Phase 1: Data Cleaning (Python & Pandas)
 Using python_pandas_raw_data_cleaning_script.ipynb:
