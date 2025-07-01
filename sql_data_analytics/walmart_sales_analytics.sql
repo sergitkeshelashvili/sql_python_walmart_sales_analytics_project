@@ -8,7 +8,10 @@ Basic Metrics
 Aggregations and Rankings
 Time-Based Analysis
 
-----------------------------------------------
+===========================================================
+===========================================================
+===========================================================
+    
 ### Schema Exploration
 
 -- Retrieves all tables in the database from the INFORMATION_SCHEMA
@@ -16,6 +19,10 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES;
 
 -- Retrieves all columns in the database, providing details like table name, column name, and data type
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS;
+
+===========================================================
+===========================================================
+===========================================================
 
 ### Distinct Values Analysis
 
@@ -34,6 +41,10 @@ FROM walmart_sales;
 -- Retrieves unique payment methods used in the walmart_sales table
 SELECT DISTINCT payment_method
 FROM walmart_sales;
+
+===========================================================
+===========================================================
+===========================================================
 
 ### Baisc Metrics
 
@@ -79,6 +90,10 @@ UNION ALL
 SELECT 'Total Profit', SUM(unit_price * quantity * profit_margin) FROM walmart_sales
 UNION ALL
 SELECT 'Average Rating', AVG(rating) FROM walmart_sales;
+
+===========================================================
+===========================================================
+===========================================================
 
 ### Aggregations and Rankings
 
@@ -222,6 +237,10 @@ SELECT
     RANK() OVER(PARTITION BY branch ORDER BY COUNT(*) DESC) AS payment_method_rank
 FROM walmart_sales
 GROUP BY branch, payment_method;
+
+===========================================================
+===========================================================
+===========================================================
 
 ### Time-Based Analysis
 
