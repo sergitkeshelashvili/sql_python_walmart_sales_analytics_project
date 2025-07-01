@@ -1,63 +1,42 @@
-# Walmart_Sales_Analytics_Project
+# Walmart Sales Analytics Project 📊💸
 
-This portfolio project presents a comprehensive analysis of Walmart sales data, focusing on cleaning, transforming, and deriving actionable insights from retail transactions. 
+Welcome to the Walmart Sales Analytics Project! 🚀 This portfolio project delivers a comprehensive, end-to-end analysis of Walmart's retail sales data, transforming raw transactional data into actionable business insights. From cleaning and structuring data with Python to uncovering trends with SQL analytics, this project showcases a robust pipeline for retail data analysis. Dive in to explore how data can drive smarter business decisions! 💡
 
-============================================================
+📋 Project Overview
+This project is split into two exciting phases: Data Cleaning with Python & Pandas 🐍 and Advanced Analytics with PostgreSQL 🗄️. Using a raw dataset (Walmart_Sales_Raw_Data.csv), we clean, transform, and analyze retail transactions to uncover insights like top-performing products, busiest days, and profitability trends across branches and cities.
 
-The project is divided into two key phases:
+🛠️ Phase 1: Data Cleaning (Python & Pandas)
+In this phase, we take the raw dataset and whip it into shape for analysis! Using Python and Pandas in the python_pandas_raw_data_cleaning_script.ipynb notebook, we:
 
-🔹 Phase 1: Data Cleaning (Python & Pandas)
+🗑️ Remove duplicates and handle missing values to ensure data integrity.
+🔄 Convert data types (e.g., unit prices from strings to floats for accurate calculations).
+📅 Merge date and time columns into a single datetime column for streamlined analysis.
+🧹 Standardize column names and optimize the dataset’s structure for efficiency.
+Output: A polished, analysis-ready dataset saved as Walmart_Sales_Cleaned_Data.csv.
 
-Using the raw dataset (Walmart_Sales_Raw_Data.csv), this phase involves preparing the data for analysis by:
+📈 Phase 2: Analytics (PostgreSQL)
+With the cleaned dataset, we dive into sql_data_analytics to extract powerful insights using advanced SQL queries in walmart_sales_analytics.sql. This phase includes:
 
-Removing duplicate entries and handling missing values.
-
-Converting data types (e.g., converting unit prices from strings to floats).
-
-Merging date and time columns into a single datetime column.
-
-Creating a new sales column for revenue calculations.
-
-Standardizing column names and optimizing the dataset’s structure.
-
-The result is a clean, analysis-ready dataset saved as Walmart_Sales_Cleaned_Data.csv.
-
-============================================================
-
-🔹 Phase 2: Advanced Analytics (PostgreSQL)
-Using the cleaned dataset, this phase applies advanced SQL techniques to extract business insights, including:
-
-Aggregating total sales and transactions by payment method.
-
-Identifying the highest-rated product categories by branch.
-
-Analyzing the busiest day of the week for each branch.
-
-Exploring profitability, revenue, and customer ratings by city and product category.
-
-Ranking product categories based on total profit.
-
-SQL queries are stored in the walmart_sales.sql script and demonstrate the use of aggregations, window functions, conditional logic, and rankings.
-
-============================================================
+📊 Aggregating sales and transactions by payment method to understand customer preferences.
+⭐ Identifying top-rated product categories by branch to highlight best performers.
+🕒 Analyzing busiest days of the week for each branch to optimize operations.
+💵 Exploring profitability and revenue trends by city and product category.
+🏆 Ranking product categories by total profit using window functions.
+The init_database.sql script sets up the database schema, ensuring a smooth setup for running the analytics queries.
 
 📂 Repository Structure
+The project is organized into two main folders for clarity and reproducibility:
 
-walmart_sales_project.ipynb: Python notebook for data cleaning.
-
-walmart_sales.sql: SQL scripts for performing the advanced analytics.
-
-============================================================
-
-✅ Key Features
-End-to-end data preparation and transformation using Python.
-
-Insightful business analysis powered by PostgreSQL.
-
-Clean and structured codebase for reproducibility and scalability.
-
-============================================================
-
-📄 License
+🐍 python_pandas_raw_data_cleaning
+walmart_sales_raw_data.csv: The raw dataset containing Walmart sales transactions.
+python_pandas_raw_data_cleaning_script.ipynb: Jupyter notebook with Python/Pandas code for data cleaning and transformation.
+🗄️ sql_data_analytics
+init_database.sql: SQL script to initialize the database schema.
+walmart_sales_analytics.sql: SQL queries for analytics, featuring aggregations, window functions, and e.t.c
+✨ Key Features
+End-to-End Workflow: From raw data cleanup to insightful analytics, this project covers the full data pipeline.
+Reproducible & Scalable: Clean, modular code ensures easy replication and scalability for larger datasets.
+Actionable Insights: Uncover trends to optimize sales, staffing, and product strategies.
+🛡️ License
 This project is licensed under the MIT License.
 
