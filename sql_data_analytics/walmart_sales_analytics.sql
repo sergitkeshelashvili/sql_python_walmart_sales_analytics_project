@@ -1,3 +1,4 @@
+/*
 ### Walmart Sales Analysis SQL Queries
 This repository contains a collection of SQL queries designed to analyze the walmart_sales database table. The queries explore various aspects of the dataset, including schema exploration, basic metrics, aggregations, rankings, and time-based analysis. The queries are organized thematically, progressing from simple exploratory queries to more advanced analytical ones.
 
@@ -7,6 +8,7 @@ Distinct Values Analysis
 Basic Metrics
 Aggregations and Rankings
 Time-Based Analysis
+*/
 
 ===========================================================
 ===========================================================
